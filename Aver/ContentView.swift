@@ -66,7 +66,7 @@ struct ContentView: View {
         }
         .listStyle(.inset(alternatesRowBackgrounds: true))
         .environment(\.defaultMinListRowHeight, 22)
-        .onAppear { configureListTableView(coordinator: coordinator) }
+        .configureTableView(coordinator: coordinator)
     }
 
     // MARK: - Context Menu（ダブルクリック用）
