@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA22222200000000000000B1 /* AverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A1 /* AverApp.swift */; };
+		AA22222200000000000000B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A2 /* AppDelegate.swift */; };
+		AA22222200000000000000B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A3 /* ContentView.swift */; };
+		AA22222200000000000000B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A4 /* Assets.xcassets */; };
+		AA22222200000000000000B5 /* AppRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A5 /* AppRowView.swift */; };
+		AA22222200000000000000B6 /* AverCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A6 /* AverCommands.swift */; };
+		AA22222200000000000000B7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A7 /* ViewModel.swift */; };
+		AA22222200000000000000B8 /* AdobeAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A8 /* AdobeAppInfo.swift */; };
+		AA22222200000000000000B9 /* AdobeAppScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000A9 /* AdobeAppScanner.swift */; };
+		AA22222200000000000000BA /* SystemInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000AA /* SystemInfoService.swift */; };
+		AA22222200000000000000BB /* ChangeLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000AB /* ChangeLogView.swift */; };
+		AA22222200000000000000BC /* ChangeLogWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000AC /* ChangeLogWindowController.swift */; };
+		AA22222200000000000000BD /* PreferencesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000AD /* PreferencesService.swift */; };
+		AA22222200000000000000BE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000AE /* Localizable.xcstrings */; };
+		AA22222200000000000000BF /* ListAppKitBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22222200000000000000C0 /* ListAppKitBridge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA22222200000000000000A1 /* AverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverApp.swift; sourceTree = "<group>"; };
+		AA22222200000000000000A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA22222200000000000000A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA22222200000000000000A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA22222200000000000000A5 /* AppRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRowView.swift; sourceTree = "<group>"; };
+		AA22222200000000000000A6 /* AverCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverCommands.swift; sourceTree = "<group>"; };
+		AA22222200000000000000A7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AA22222200000000000000A8 /* AdobeAppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdobeAppInfo.swift; sourceTree = "<group>"; };
+		AA22222200000000000000A9 /* AdobeAppScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdobeAppScanner.swift; sourceTree = "<group>"; };
+		AA22222200000000000000AA /* SystemInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfoService.swift; sourceTree = "<group>"; };
+		AA22222200000000000000AB /* ChangeLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLogView.swift; sourceTree = "<group>"; };
+		AA22222200000000000000AC /* ChangeLogWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLogWindowController.swift; sourceTree = "<group>"; };
+		AA22222200000000000000AD /* PreferencesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesService.swift; sourceTree = "<group>"; };
+		AA22222200000000000000AE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AA22222200000000000000AF /* Aver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aver.entitlements; sourceTree = "<group>"; };
+		AA22222200000000000000B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA22222200000000000000C0 /* ListAppKitBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppKitBridge.swift; sourceTree = "<group>"; };
+		AA22222200000000000000C1 /* Aver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA22222200000000000000D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA22222200000000000000E1 = {
+			isa = PBXGroup;
+			children = (
+				AA22222200000000000000E2 /* Aver */,
+				AA22222200000000000000E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA22222200000000000000E2 /* Aver */ = {
+			isa = PBXGroup;
+			children = (
+				AA22222200000000000000A1 /* AverApp.swift */,
+				AA22222200000000000000A2 /* AppDelegate.swift */,
+				AA22222200000000000000A6 /* AverCommands.swift */,
+				AA22222200000000000000A3 /* ContentView.swift */,
+				AA22222200000000000000C0 /* ListAppKitBridge.swift */,
+				AA22222200000000000000A5 /* AppRowView.swift */,
+				AA22222200000000000000AB /* ChangeLogView.swift */,
+				AA22222200000000000000AC /* ChangeLogWindowController.swift */,
+				AA22222200000000000000A7 /* ViewModel.swift */,
+				AA22222200000000000000A8 /* AdobeAppInfo.swift */,
+				AA22222200000000000000A9 /* AdobeAppScanner.swift */,
+				AA22222200000000000000AA /* SystemInfoService.swift */,
+				AA22222200000000000000AD /* PreferencesService.swift */,
+				AA22222200000000000000A4 /* Assets.xcassets */,
+				AA22222200000000000000AE /* Localizable.xcstrings */,
+				AA22222200000000000000AF /* Aver.entitlements */,
+				AA22222200000000000000B0 /* Info.plist */,
+			);
+			path = Aver;
+			sourceTree = "<group>";
+		};
+		AA22222200000000000000E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA22222200000000000000C1 /* Aver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA22222200000000000000F1 /* Aver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA22222200000000000000F6 /* Build configuration list for PBXNativeTarget "Aver" */;
+			buildPhases = (
+				AA22222200000000000000D1 /* Sources */,
+				AA22222200000000000000D2 /* Frameworks */,
+				AA22222200000000000000D3 /* Resources */,
+				AA22222200000000000000D4 /* Set Copyright Year */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aver;
+			productName = Aver;
+			productReference = AA22222200000000000000C1 /* Aver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA22222200000000000000F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA22222200000000000000F1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA22222200000000000000F3 /* Build configuration list for PBXProject "Aver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = AA22222200000000000000E1;
+			productRefGroup = AA22222200000000000000E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA22222200000000000000F1 /* Aver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA22222200000000000000D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA22222200000000000000B4 /* Assets.xcassets in Resources */,
+				AA22222200000000000000BE /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA22222200000000000000D4 /* Set Copyright Year */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Set Copyright Year";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "YEAR=$(date +%Y)\n/usr/libexec/PlistBuddy -c \"Set :NSHumanReadableCopyright '© 2023-${YEAR} monokano'\" \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA22222200000000000000D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA22222200000000000000B1 /* AverApp.swift in Sources */,
+				AA22222200000000000000B2 /* AppDelegate.swift in Sources */,
+				AA22222200000000000000B3 /* ContentView.swift in Sources */,
+				AA22222200000000000000BF /* ListAppKitBridge.swift in Sources */,
+				AA22222200000000000000B5 /* AppRowView.swift in Sources */,
+				AA22222200000000000000B6 /* AverCommands.swift in Sources */,
+				AA22222200000000000000B7 /* ViewModel.swift in Sources */,
+				AA22222200000000000000B8 /* AdobeAppInfo.swift in Sources */,
+				AA22222200000000000000B9 /* AdobeAppScanner.swift in Sources */,
+				AA22222200000000000000BA /* SystemInfoService.swift in Sources */,
+				AA22222200000000000000BB /* ChangeLogView.swift in Sources */,
+				AA22222200000000000000BC /* ChangeLogWindowController.swift in Sources */,
+				AA22222200000000000000BD /* PreferencesService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA22222200000000000000F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA22222200000000000000F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA22222200000000000000F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aver/Aver.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 36;
+				DEVELOPMENT_TEAM = C9U3E9EBLM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Aver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Aver;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tama-san.Aver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA22222200000000000000F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aver/Aver.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 36;
+				DEVELOPMENT_TEAM = C9U3E9EBLM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Aver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Aver;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tama-san.Aver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA22222200000000000000F3 /* Build configuration list for PBXProject "Aver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA22222200000000000000F4 /* Debug */,
+				AA22222200000000000000F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA22222200000000000000F6 /* Build configuration list for PBXNativeTarget "Aver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA22222200000000000000F7 /* Debug */,
+				AA22222200000000000000F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA22222200000000000000F2 /* Project object */;
+}
