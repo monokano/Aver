@@ -20,10 +20,6 @@ macOS用デスクトップアプリ
 
 macOS 13.0 Ventura 以降（Universal Binary）
 
-## ビルド
-
-Xcode で `Aver.xcodeproj` を開いてビルドしてください。
-
 ## ライセンス
 
 Copyright © 2023-2026 monokano
