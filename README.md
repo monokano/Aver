@@ -21,4 +21,4 @@ macOS 13.0 Ventura 以降（Universal Binary）
 
 ## ライセンス
 
-Copyright © 2023-2026 monokano
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
